@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #C02C0E;  /*fundo*/
+    height: 100px; /*altura*/
+    width: 100vw; /*largura*/
+    display: flex ; /*deixa flexivel*/
+    justify-content: right; /*conteúdo na direita*/
+    gap: 20px; /*espaçamento entre item*/
+    padding-right: 15vw; /*espaçamento da direita pra esquerda*/
+    
+}
+
+header button{
+    border: none;
+    color: white;
+    background-color: #C02C0E;
+    font: bolder;
+    font-size: 16px;
+}
+
+.logo{
+    
+    height: 90px;
+    width: 70vw;
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 16vw;
+    font-size: 12px;
+    padding-top: 3vh;
+
+}
+
+.divisor{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-right: 12vw;
+}
+
+.faturafacil{
+    display: grid;
+    width: 220px;
+}
+
+.buscando{
+    background-color: #F8F8F8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100vw;
+    background-color:#C02C0E ;
+    color: white;
+    padding-top: 6.5vh;
+}
+
+.informe button {
+   border:none;
+   background-color: #E83918;
+   color: white; 
+   width: 100px;
+   height: 40px;
+   border-radius: 25px;
+   margin-top: 10px;
+}
+
+.informe input {
+    width: 38vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.buscando h2{
+    color: #E83918;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.buscando button {
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    border: 1px solid black;
+    margin-top: 30px;
+    font: bolder;
+    color: black;
+    font-size: 16px;
+
+}
+
+.faturafacil h1 {
+    font-size: 36px;
+    color: rgb(31, 29, 29);
+}
+
+.linha{
+    background-color: #EEEEEE;
+    width: 1px;
+    height: 70vh;
+}
